@@ -43,3 +43,4 @@ Dataset: Base Vendas.xlsx
   <li>Data - Classificar em ordem crescente</li>
 </ul>
 
+![dashboard-vendas-Base_Vendas](https://user-images.githubusercontent.com/85963623/236019879-70fd21bd-e4a8-4268-8a3b-9b17b0416bda.png)
