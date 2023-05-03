@@ -4,6 +4,6 @@ Neste repositório você encontra Dashboards realizados por mim. Em cada pasta e
 
 <h3>Pastas:</h3>
 <ul>
-  <li>[Dashboard de Varejo - supermarket-sales](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)</li>
-  <li>[Dashboard de Vendas - Vendas](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)</li>
+  <li><a href="https://github.com/carolinari/PowerBI/tree/main/supermarket-sales">Dashboard de Varejo [supermarket-sales]</a></li>
+  <li><a href="https://github.com/carolinari/PowerBI/tree/main/vendas">Dashboard de Vendas [vendas]</a></li>
 </ul>
