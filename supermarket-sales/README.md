@@ -26,3 +26,5 @@ Dataset: [supermarket-sales](https://www.kaggle.com/datasets/aungpyaeap/supermar
   <li>Transformar "Quantidade" em número inteiro - Tipo de dados (número inteiro)</li>
 </ul>
 
+
+![dashboard-acompanhamento-de-vendas-supermarket_sales](https://user-images.githubusercontent.com/85963623/236019419-8b4887cc-ea4e-4e0e-ae7a-20e82c9b54a6.png)
