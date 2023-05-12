@@ -67,6 +67,7 @@ Conjunto de dados: Produção.xlsx
   </ul>
 </ul>
 
+![dashboard-producao](https://github.com/carolinari/PowerBI/assets/85963623/363b5953-6891-454c-a806-80056aef5b6d)
 
 
 
