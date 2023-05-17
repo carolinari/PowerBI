@@ -82,6 +82,19 @@ Conjunto de dados: BaseFuncionarios.xlsx
 </ul>
 
 
+Dashboard de RH:
+![dashboard-RH](https://github.com/carolinari/PowerBI/assets/85963623/b732dc4a-6d8a-4167-bda9-a8cd5fb7637f)
+
+
+Dashboard - Tooltip - Em gráfico de Funcionários por Cidade:
+![dashboard-RH-GraficoFuncPorCidade-Tooltip](https://github.com/carolinari/PowerBI/assets/85963623/56d3565f-f895-42d0-8b6f-e5edbe57b62f)
+
+
+Dashboard - Tooltip:
+
+![dashboard-RH-Tooltip](https://github.com/carolinari/PowerBI/assets/85963623/ce9c34d3-ece3-4107-8300-946ac85278b6)
+
+
 
 
 
