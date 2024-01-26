@@ -8,4 +8,5 @@ Neste repositório você encontra Dashboards realizados por mim. Em cada pasta e
   <li><a href="https://github.com/carolinari/PowerBI/tree/main/producao">Dashboard de Produção [producao]</a></li>
   <li><a href="https://github.com/carolinari/PowerBI/tree/main/supermarket-sales">Dashboard de Varejo [supermarket-sales]</a></li>
   <li><a href="https://github.com/carolinari/PowerBI/tree/main/vendas">Dashboard de Vendas [vendas]</a></li>
+  <li><a href="https://github.com/carolinari/PowerBI/tree/main/dashboard-covid-BR">Dashboard de COVID no Brasil [covid-BR-2020_out2023]</a></li>
 </ul>
