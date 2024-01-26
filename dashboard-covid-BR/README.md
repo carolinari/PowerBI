@@ -1,5 +1,6 @@
 # Dashboard de Covid-19 no Brasil 
 - (25 de Fevereiro de 2020 - 28 de Outubro de 2023)
+- Com layout móvel
 
 
 ## Bases de dados
@@ -41,3 +42,13 @@ CALCULATE(SUM('covidbr_2020_2023-28out'[obitosAcumulado]), FILTER('covidbr_2020_
 
 - n_obitos_novos = 
 CALCULATE(SUM('covidbr_2020_2023-28out'[obitosNovos]), FILTER('covidbr_2020_2023-28out','covidbr_2020_2023-28out'[data]=max('covidbr_2020_2023-28out'[data])) ) 
+
+
+
+
+
+![dash-covid-BR-2020_out2023-1](https://github.com/carolinari/PowerBI/assets/85963623/79dfe8ab-e498-4d95-a899-89872a705b54)
+
+
+
+![dash-covid-BR-2020_out2023-2](https://github.com/carolinari/PowerBI/assets/85963623/f46c46fc-5876-4477-b603-351d6a5dca9b)
