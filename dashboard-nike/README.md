@@ -16,3 +16,4 @@
 - Substituir ] popr nada
 - Dividir coluna > Por delimitador > ,
 
+![dashboard-nike](https://github.com/carolinari/PowerBI/assets/85963623/7bebc87e-c467-4413-8183-88ed6decb635)
