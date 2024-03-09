@@ -27,4 +27,9 @@ Dataset: [supermarket-sales](https://www.kaggle.com/datasets/aungpyaeap/supermar
 </ul>
 
 
-![dashboard-acompanhamento-de-vendas-supermarket_sales](https://user-images.githubusercontent.com/85963623/236019419-8b4887cc-ea4e-4e0e-ae7a-20e82c9b54a6.png)
+![dashboard-AcompanhamentoDeVendas-supermarket_sales-1](https://github.com/carolinari/PowerBI/assets/85963623/926178b0-5ee1-47df-88e3-817ff6797fcf)
+
+
+![dashboard-AcompanhamentoDeVendas-supermarket_sales-2](https://github.com/carolinari/PowerBI/assets/85963623/9a3a5dd2-b746-41d7-a551-8ac92d415a86)
+
+
