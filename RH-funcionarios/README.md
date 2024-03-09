@@ -95,6 +95,6 @@ else "Alto"
 - Total de Funcionários por Envolvimento no Trabalho
 - Total de Funcionários por Viagem
 
-
-
-![dashboard-RH](https://github.com/carolinari/PowerBI/assets/85963623/38e83f87-40ee-48ae-bf6e-5b5f2522ba62)
+<p align="center">
+  <img src="dashboard-RH.png"><br>
+</p>
