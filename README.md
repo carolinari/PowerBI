@@ -10,7 +10,7 @@ Neste repositório você encontra Dashboards realizados por mim. Em cada pasta e
   <li><a href="https://github.com/carolinari/PowerBI/tree/main/dashboard-nike">Dashboard Nike [nike]</a></li>
   <li><a href="https://github.com/carolinari/PowerBI/tree/main/netflix">Dashboard Netflix [netflix]</a></li>
   <li><a href="https://github.com/carolinari/PowerBI/tree/main/producao">Dashboard de Produção [producao]</a></li>
-  <li><a href="https://github.com/carolinari/PowerBI/tree/main/segmentacao_de_clientes">Dashboard de Segmentação de Clientes [segmentos]</a></li>
+  <li><a href="https://github.com/carolinari/PowerBI/tree/main/segmentacao_de_clientes">Dashboard de Segmentação de Clientes com Machine Learning (Python) [segmentos]</a></li>
   <li><a href="https://github.com/carolinari/PowerBI/tree/main/supermarket-sales">Dashboard de Varejo [supermarket-sales]</a></li>
   <li><a href="https://github.com/carolinari/PowerBI/tree/main/vendas">Dashboard de Vendas [vendas]</a></li>
 </ul>
