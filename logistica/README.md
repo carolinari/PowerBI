@@ -84,3 +84,7 @@ RETURN
 ### Ano - Filtro
 - Visual Chiclet Slicer (Microsoft Corporation)
 - Botões
+
+<p align="center">
+  <img src="dashboard-AD_logistica.png"><br>
+</p>
