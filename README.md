@@ -21,12 +21,15 @@
 <h3>Alguns dashboards:</h3>
 <ul>
   <li>
-    <a href="https://github.com/carolinari/PowerBI/tree/main/covid-BR">Dashboard de COVID no Brasil [covid-BR-2020_out2023]</a>
+    <a href="https://github.com/carolinari/PowerBI/tree/main/covid-BR">Dashboard de COVID no Brasil</a>
     <p align="center">
-      <img src="covid-BR/dashboard-covid-BR-2020_out2023-1.png"><br>
+      <img src="covid-BR/imagem-dashboard-pagina1.png"><br>
     </p>
     <p align="center">
-      <img src="covid-BR/dashboard-covid-BR-2020_out2023-2.png"><br>
+      <img src="covid-BR/imagem-dashboard-pagina2.png"><br>
+    </p>
+    <p align="center">
+      <img src="covid-BR/imagem-dashboard-pagina3.png"><br>
     </p>
   </li>
   <li>
