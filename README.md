@@ -5,7 +5,7 @@
 
 <h3>Pastas:</h3>
 <ul>
-  <li><a href="https://github.com/carolinari/PowerBI/tree/main/covid-BR">Dashboard de COVID no Brasil [covid-BR-2020_out2023]</a></li>
+  <li><a href="https://github.com/carolinari/PowerBI/tree/main/covid-BR">Dashboard de COVID no Brasil</a></li>
   <li><a href="https://github.com/carolinari/PowerBI/tree/main/dashboard-nike">Dashboard Nike [nike]</a></li>
   <li><a href="https://github.com/carolinari/PowerBI/tree/main/netflix">Dashboard Netflix [netflix]</a></li>
   <li><a href="https://github.com/carolinari/PowerBI/tree/main/segmentacao_de_clientes">Dashboard de Segmentação de Clientes com Machine Learning (Python) [segmentos]</a></li>
