@@ -1,5 +1,5 @@
 # Dashboard de Covid-19 no Brasil 
-- (25 de Fevereiro de 2020 - 28 de Outubro de 2023)
+- (25 de Fevereiro de 2020 - 03 de Janeiro de 2025)
 
 
 ## Bases de dados
@@ -30,21 +30,104 @@
 
 ## Medidas criadas
 
-- n_casos = 
-CALCULATE(SUM('covidbr_2020_2023-28out'[casosAcumulado]), FILTER('covidbr_2020_2023-28out','covidbr_2020_2023-28out'[data]=max('covidbr_2020_2023-28out'[data])) ) 
+- QtdCasosAcumulados = 
+```
+CALCULATE(
+    MAX('covidbr_2020_2023-28out'[casosAcumulado]),
+    FILTER(
+        'covidbr_2020_2023-28out',
+        'covidbr_2020_2023-28out'[data] = 
+        MAX('covidbr_2020_2023-28out'[data])
+    )
+)
+```
 
-- n_casos_novos = 
-CALCULATE(SUM('covidbr_2020_2023-28out'[casosNovos]), FILTER('covidbr_2020_2023-28out','covidbr_2020_2023-28out'[data]=max('covidbr_2020_2023-28out'[data])) ) 
+- QtdObitosAcumulados = 
+```
+CALCULATE(
+    MAX('covidbr_2020_2023-28out'[obitosAcumulado]),
+    FILTER(
+        'covidbr_2020_2023-28out',
+        'covidbr_2020_2023-28out'[data] =
+        MAX('covidbr_2020_2023-28out'[data])
+    )
+)
+```
 
-- n_obitos = 
-CALCULATE(SUM('covidbr_2020_2023-28out'[obitosAcumulado]), FILTER('covidbr_2020_2023-28out','covidbr_2020_2023-28out'[data]=max('covidbr_2020_2023-28out'[data])) ) 
 
-- n_obitos_novos = 
-CALCULATE(SUM('covidbr_2020_2023-28out'[obitosNovos]), FILTER('covidbr_2020_2023-28out','covidbr_2020_2023-28out'[data]=max('covidbr_2020_2023-28out'[data])) ) 
+- RotuloCasosNovosPorAno =
+```
+VAR AnoAtual = SELECTEDVALUE('covidbr_2020_2023-28out'[Ano])
 
+-- Soma dos casos novos no ano atual
+VAR ValorAtual =
+    CALCULATE(
+        SUM('covidbr_2020_2023-28out'[casosNovos]),
+        FILTER(
+            ALL('covidbr_2020_2023-28out'),
+            YEAR('covidbr_2020_2023-28out'[data]) = AnoAtual
+        )
+    )
 
-![dash-covid-BR-2020_out2023-1](https://github.com/carolinari/PowerBI/assets/85963623/79dfe8ab-e498-4d95-a899-89872a705b54)
+-- Soma dos casos novos no ano anterior
+VAR AnoAnterior = AnoAtual - 1
 
+VAR ValorAnterior =
+    CALCULATE(
+        SUM('covidbr_2020_2023-28out'[casosNovos]),
+        FILTER(
+            ALL('covidbr_2020_2023-28out'),
+            YEAR('covidbr_2020_2023-28out'[data]) = AnoAnterior
+        )
+    )
 
+-- Diferença absoluta e percentual
+VAR Diferenca = ValorAtual - ValorAnterior
 
-![dash-covid-BR-2020_out2023-2](https://github.com/carolinari/PowerBI/assets/85963623/f46c46fc-5876-4477-b603-351d6a5dca9b)
+VAR Percentual =
+    IF(
+        NOT ISBLANK(ValorAnterior) && ValorAnterior <> 0,
+        DIVIDE(Diferenca, ValorAnterior),
+        BLANK()
+    )
+
+-- Ícone de tendência
+VAR Icone =
+    SWITCH(
+        TRUE(),
+        Diferenca > 0, "🟨▴",
+        Diferenca < 0, "🔵▾",
+        "-"
+    )
+
+-- Resultado formatado
+RETURN
+    IF(
+        NOT ISBLANK(Percentual),
+        Icone & " " &
+        FORMAT(Percentual, "0.00%") & " (" &
+        FORMAT(Diferenca, "+#,##0;-#,##0") & ")",
+        BLANK()
+    )
+```
+
+- TaxaDeLetalidade =
+```
+([QtdObitosAcumulados] / [QtdCasosAcumulados])
+```
+
+---
+
+## Imagens das Páginas dos Dashboards
+
+<p>
+  <img src="imagem-dashboard-pagina1.png">
+</p>
+
+<p>
+  <img src="imagem-dashboard-pagina2.png">
+</p>
+
+<p>
+  <img src="imagem-dashboard-pagina3.png">
+</p>
